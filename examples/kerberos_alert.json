@@ -1,0 +1,15 @@
+{
+  "source": "siem",
+  "event_type": "Kerberos TGT Request",
+  "source_user": "user123",
+  "source_host": "ws-fin-27",
+  "destination_host": "srv-fin-03",
+  "result": "Success",
+  "severity": "high",
+  "timestamp": "2026-04-29T13:22:41Z",
+  "attributes": {
+    "auth_protocol": "kerberos",
+    "process": "powershell.exe",
+    "geo_velocity": "unusual"
+  }
+}
